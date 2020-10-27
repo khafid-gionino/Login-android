@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    tools:context=".profil">
+
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/khafid"
+        android:layout_width="120dp"
+        android:layout_height="120dp"></ImageView>
+
+    <TextView
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Name"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_below="@id/Image"
+        android:text="Ach.Khafid Salim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Npm"
+        android:textStyle="bold"
+        android:layout_below="@id/Name"
+        android:text="Android Developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <ImageView
+        android:id="@+id/profilui"
+        android:layout_below="@id/Npm"
+        android:src="@drawable/profileui"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></ImageView>
+
+    <LinearLayout
+        android:layout_below="@+id/profilui"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:id="@+id/Linearlayout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/ic_person_24px"
+            android:layout_width="36dp"
+            android:layout_height="36dp"></ImageView>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:text="My Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/Linearlayout_1"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:id="@+id/Linearlayout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/ic_chat_24px"
+            android:layout_width="36dp"
+            android:layout_height="36dp"></ImageView>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:text="Message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/Linearlayout_2"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:id="@+id/Linearlayout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/ic_share_24px"
+            android:layout_width="36dp"
+            android:layout_height="36dp"></ImageView>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:text="Share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/Linearlayout_3"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:id="@+id/Linearlayout_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/ic_my_location_24px"
+            android:layout_width="36dp"
+            android:layout_height="36dp"></ImageView>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:text="Location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/Linearlayout_4"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:id="@+id/Linearlayout_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/ic_settings_24px"
+            android:layout_width="36dp"
+            android:layout_height="36dp"></ImageView>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:text="Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/Linearlayout_5"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:id="@+id/Linearlayout_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_exit_to_app_24px"></ImageView>
+
+        <TextView
+
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:text="Logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView
+       >
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
